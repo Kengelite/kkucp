@@ -16,4 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/aa', function () {
+    return view('advice');
+});
+
+Route::get('/question', function () {
+    return view('estimate/question');
+});
 
