@@ -8,13 +8,13 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="{{ asset('public/css/index.css') }}">
     <link rel="stylesheet" href="/css/index.css">
-	<!-- title of site -->
-	<title>CP:Scholarsphere</title>
+    <!-- title of site -->
+    <title>CP:Scholarsphere</title>
 
-	<!-- For favicon png -->
+    <!-- For favicon png -->
     <link rel="shortcut icon" href="{{ asset('public/images/icons/CP_icon.png') }}">
-	<link rel="shortcut icon" type="image/icon" href="/images/icons/CP_icon.png"/>
-		  
+    <link rel="shortcut icon" type="image/icon" href="/images/icons/CP_icon.png" />
+
 
 </head>
 
@@ -27,24 +27,26 @@
     <div class="card">
         <a href="#">
             <div class="column">
-                <img  src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 1">
+                <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 1">
                 <h3>E-Project</h3>
                 <p>ระบบฐานข้อมูลโครงงาน</p>
             </div>
         </a>
 
-		<a href="{{ asset('Scholarsphere') }}">
-        <div class="column">
-            <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 3">
-            <h3>ScholarSphere</h3>
-            <p>ระบบฐานข้อมูลวิจัย</p>
-        </div>
-	</a>
-        <div class="column">
-            <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 4">
-            <h3>ScholarSphere</h3>
-            <p>ระบบฐานข้อมูลวิจัย</p>
-        </div>
+        <a href="{{ asset('/Scholarsphere') }}">
+            <div class="column">
+                <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 3">
+                <h3>ScholarSphere</h3>
+                <p>ระบบฐานข้อมูลวิจัย</p>
+            </div>
+        </a>
+        <a href="/Scholarsphere">
+            <div class="column">
+                <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 3">
+                <h3>ScholarSphere</h3>
+                <p>ระบบฐานข้อมูลวิจัย</p>
+            </div>
+        </a>
         <div class="column">
             <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 4">
             <h3>ScholarSphere</h3>
