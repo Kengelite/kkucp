@@ -33,21 +33,21 @@
             </div>
         </a>
 
-        <a href="{{ asset('/Scholarsphere') }}">
+        <a href="{{ asset('/scholar') }}">
             <div class="column">
                 <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 3">
                 <h3>ScholarSphere</h3>
                 <p>ระบบฐานข้อมูลวิจัย</p>
             </div>
         </a>
-        <a href="/Scholarsphere">
+        <a href="/scholar">
             <div class="column">
                 <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 3">
                 <h3>ScholarSphere</h3>
                 <p>ระบบฐานข้อมูลวิจัย</p>
             </div>
         </a>
-        <a href="{{ url('Scholarsphere') }}">
+        <a href="{{ url('scholar') }}">
             <div class="column">
                 <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 3">
                 <h3>ScholarSphere</h3>

@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('scholarsphere');
+    return view('index');
 });
 Route::get('/aa', function () {
     return view('advice');
 });
-Route::get('/Scholarsphere', function () {
-    return view('scholarsphere');
+Route::get('/scholar', function () {
+    return view('scholar');
 });
 Route::get('/question', function () {
     return view('estimate/question');
