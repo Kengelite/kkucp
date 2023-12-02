@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- custom css file link  -->
     <link rel="stylesheet" href="{{ asset('public/css/index.css') }}">
-
+    <link rel="stylesheet" href="/css/index.css">
 	<!-- title of site -->
 	<title>CP:Scholarsphere</title>
 
@@ -33,7 +33,7 @@
             </div>
         </a>
 
-		<a href="/html/home.html">
+		<a href="{{ asset('Scholarsphere') }}">
         <div class="column">
             <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 3">
             <h3>ScholarSphere</h3>

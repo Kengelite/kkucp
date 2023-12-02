@@ -19,7 +19,9 @@ Route::get('/', function () {
 Route::get('/aa', function () {
     return view('advice');
 });
-
+Route::get('/Scholarsphere', function () {
+    return view('Scholarsphere');
+});
 Route::get('/question', function () {
     return view('estimate/question');
 });
