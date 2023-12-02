@@ -47,11 +47,13 @@
                 <p>ระบบฐานข้อมูลวิจัย</p>
             </div>
         </a>
-        <div class="column">
-            <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 4">
-            <h3>ScholarSphere</h3>
-            <p>ระบบฐานข้อมูลวิจัย</p>
-        </div>
+        <a href="{{ url('Scholarsphere') }}">
+            <div class="column">
+                <img src="{{ asset('public/images/รูปindex/วิจัย.svg') }} " alt="Image 3">
+                <h3>ScholarSphere</h3>
+                <p>ระบบฐานข้อมูลวิจัย</p>
+            </div>
+        </a>
     </div>
 
 </body>

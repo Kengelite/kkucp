@@ -20,7 +20,7 @@ Route::get('/aa', function () {
     return view('advice');
 });
 Route::get('/Scholarsphere', function () {
-    return view('views/scholarsphere');
+    return view('scholarsphere');
 });
 Route::get('/question', function () {
     return view('estimate/question');
